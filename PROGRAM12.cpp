@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+namespace First
+{
+void display()
+{
+cout << "This is First namespace." << endl;
+}
+}
+namespace Second
+{
+void display()
+{
+cout << "This is Second namespace." << endl;
+}
+}
+int main()
+{
+First::display();
+Second::display();
+return 0;
+}
